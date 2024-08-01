@@ -26,9 +26,9 @@ SELECT * FROM usertbl WHERE height BETWEEN 180 AND 190;
 SELECT * FROM usertbl WHERE addr IN ('서울', '경기', '경남');
 
 -- LIKE
--- 문자열의 내용 중 부분별 내용을 검색합니다.
--- % 는 무엇이든 허용합니다
--- _ 한 글자와 매치
+/* 문자열의 내용 중 부분별 내용을 검색합니다.
+% 는 무엇이든 허용합니다
+_ 한 글자와 매치*/
 
 SELECT * FROM usertbl WHERE name LIKE '%경호'; -- 김경호, 남궁경호 등
 SELECT * FROM usertbl WHERE name LIKE '_경호'; -- '○경호' 만 조회
