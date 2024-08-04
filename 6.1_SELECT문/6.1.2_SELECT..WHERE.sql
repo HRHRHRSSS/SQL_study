@@ -8,11 +8,12 @@ SELECT {컬럼} FROM {테이블} WHERE {조건식};
 -- EXAMPLE
 SELECT * FROM usertbl WHERE name='김경호';
 
--- [관계연산자]
--- OR 연산자 : '~또는'
--- AND 연산자 : '~면서'
--- 조건 연산자 (=, <, >, <=, >=, != 등)
--- 관계 연산자 (NOT, AND, OR 등)
+/*[관계연산자]
+- OR 연산자 : '~또는'
+- AND 연산자 : '~면서'
+- 조건 연산자 (=, <, >, <=, >=, != 등)
+- 관계 연산자 (NOT, AND, OR 등)
+*/
 
 SELECT userId, name FROM usertbl WHERE birthYear >= 1970 AND height > 180;
 
