@@ -35,3 +35,6 @@ SELECT * FROM usertbl WHERE name LIKE '%경호'; -- 김경호, 남궁경호 등
 SELECT * FROM usertbl WHERE name LIKE '_경호'; -- '○경호' 만 조회
 SELECT * FROM usertbl WHERE name LIKE '%경%'; -- '경'자가 들어간 모든 이름
 
+
+/*수정필요*/
+
